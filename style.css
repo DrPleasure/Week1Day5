@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  font-size: 4em;
+  color: rgb(31, 212, 46);
+  margin-top: 0px;
+  /* margin-bottom: 95px; */
+  padding-top: 65px;
+  cursor: progress;
+}
+
+h3:hover {
+  box-shadow: 22px 41px 6px 7px rgba(214, 57, 0, 0.72);
+  -webkit-box-shadow: 22px 41px 6px 7px rgba(214, 57, 0, 0.72);
+  -moz-box-shadow: 22px 41px 6px 7px rgba(214, 57, 0, 0.72);
+}
+
+#icons {
+  display: flex;
+  margin-top: 70px;
+  border: 0;
+  justify-content: space-between;
+  font-size: 10vh;
+  color: beige;
+  cursor: pointer;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#man {
+  position: relative;
+  size: 70vh;
+  width: 60%;
+  mix-blend-mode: multiply;
+  margin-left: 20%;
+  margin-right: auto;
+  margin-top: -4vh;
+  cursor: context-menu;
+}
+
+#man-overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#man:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+  transition: box-shadow 0.3s;
+}
+
+#bgimg {
+  background-size: auto;
+  height: 100vh;
+  background-color: rgba(220, 117, 25, 1);
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 75px,
+    rgba(158, 51, 130, 1) 75px,
+    rgba(158, 51, 130, 1) 150px
+  );
+}
+
+#css {
+  position: absolute;
+  /* height: 4em; */
+  width: auto;
+  left: 40vh;
+  top: 20vh;
+  color: white;
+  /* margin-top: 50vh; */
+  height: 20vh;
+  /* border-width: 7px 0 7px 10px; */
+  border-color: transparent transparent transparent white;
+  transform: translateX(-500px);
+  transition: transform 0.5s;
+}
+
+#man:hover #css {
+  transform: translateX(+500px);
+}
+
+h3 {
+  width: 300px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  color: #d63900;
+  text-align: center;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+ul {
+  font-size: 2em;
+  line-height: 150%;
+}
+
+div #share {
+  border: 1px;
+  height: 20v;
+  background-color: blue;
+  width: 110vh;
+  display: flex;
+  /* flex-direction: row; */
+  font-family: helv;
+  font-weight: bold;
+  justify-content: space-around;
+  padding: 21px;
+  font-weight: bold;
+}
+
+ol {
+  font-size: 2em;
+  line-height: 150%;
+}
+
+#fish div {
+  justify-content: space-between;
+  background-color: skyblue;
+  margin: 0;
+  display: flex;
+  height: 200;
+  width: auto;
+}
